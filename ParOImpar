@@ -1,0 +1,20 @@
+// See https://aka.ms/new-console-template for more information
+int option;
+int answer;
+
+Console.WriteLine("Give me a number");
+option = int.Parse(Console.ReadLine());
+
+bool fun ()
+{answer = option % 2;
+    if (answer == 0)
+    { Console.WriteLine(option +" es par");
+        return false; }
+    else
+    {
+        Console.WriteLine(option +" es impar");
+        return true ;
+    }
+}
+fun();
+return;
