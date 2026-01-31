@@ -1,0 +1,25 @@
+
+using System;
+
+public class HelloWorld
+{
+    public static void Main(string[] args)
+    {
+        int lenghtone=0;
+        int lenghttwo=0;
+        int area=0;
+       
+        Console.WriteLine ("Give me the first side lenght");
+ lenghtone= int.Parse(Console.ReadLine());
+        Console.WriteLine ("Give me the second side lenght");
+ lenghttwo= int.Parse(Console.ReadLine());
+
+    area=lenghtone*lenghttwo;
+    Console.WriteLine("The area is: "+ area);
+       
+       
+    }
+}
+
+
+
